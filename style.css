@@ -30,10 +30,12 @@ nav{
 
 #left{
   float: left;
+
 }
 
 #right{
   float: left;
+
 }
 
 ul{
@@ -43,3 +45,17 @@ ul{
 li{
   display: inline;
   text-decoration: none;
+}
+
+a:visited{
+  color: #F7F4EA;
+}
+
+a {
+  text-decoration: none;
+  color: #F7F4EA;
+}
+
+a:hover{
+  color: darkblue;
+}
