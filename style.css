@@ -1,0 +1,45 @@
+body{
+  background-color: #72DAEA;
+  color: #F7F4EA;
+  font-family: "montserrat";
+}
+
+#water {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+nav{
+  width: 100% ;
+  font-size: 28px;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+#wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#left, #right{
+  width: 50%;
+  text-align: center;
+}
+
+#left{
+  float: left;
+}
+
+#right{
+  float: left;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+  text-decoration: none;
