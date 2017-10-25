@@ -16,6 +16,11 @@ this is the css for the header. should be the same on both pages*/
 header{
   background-color: #72DAEA;
   color: #F7F4EA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+
 }
 
 nav{
@@ -23,6 +28,7 @@ nav{
   font-size: 28px;
   height: 50px;
   border-bottom: 1px solid black;
+
 }
 
 .wrapper{
@@ -71,7 +77,7 @@ a:hover{
 
 main {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 #leftcolumn, #rightcolumn{
@@ -97,5 +103,10 @@ main {
 footer {
   clear: both;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+span {
+  padding: 22px;
 }
