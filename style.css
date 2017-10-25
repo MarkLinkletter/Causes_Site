@@ -3,6 +3,8 @@ body{
   color: #F7F4EA;
   font-family: "montserrat";
 }
+/*
+this is the css for the header. should be the same on both pages*/
 
 #water {
   font-size: 50px;
@@ -18,7 +20,7 @@ nav{
   border-bottom: 1px solid black;
 }
 
-#wrapper{
+.wrapper{
   width: 1000px;
   margin: 0 auto;
 }
@@ -58,4 +60,31 @@ a {
 
 a:hover{
   color: darkblue;
+}
+
+/*this is the code for the main information section of the what page*/
+
+main {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#leftcolumn, #rightcolumn{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+#cleanwater {
+  height: 300px;
+  margin-top: 18.72px;
+}
+
+
+#donate{
+  border: 1px solid darkblue;
+  width: 145px;
+  margin-left: 160px;
+  border-radius: 50px;
+  background-color: firebrick;
 }
