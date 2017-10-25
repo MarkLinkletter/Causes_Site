@@ -66,6 +66,7 @@ a:hover{
 
 main {
   width: 100%;
+  margin-top: 50px;
 }
 
 #leftcolumn, #rightcolumn{
@@ -76,12 +77,14 @@ main {
 
 #cleanwater {
   height: 300px;
+  margin-top: 18.72px;
 }
 
 
 #donate{
-  border: 1px solid #F7F4EA;
+  border: 1px solid darkblue;
   width: 145px;
   margin-left: 160px;
   border-radius: 50px;
+  background-color: firebrick;
 }
