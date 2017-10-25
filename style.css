@@ -1,6 +1,6 @@
 body{
-  background-color: #72DAEA;
-  color: #F7F4EA;
+  color: darkblue;
+  background-color: #F7F4EA;
   font-family: "montserrat";
 }
 /*
@@ -11,6 +11,11 @@ this is the css for the header. should be the same on both pages*/
   text-align: center;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
+}
+
+header{
+  background-color: #72DAEA;
+  color: #F7F4EA;
 }
 
 nav{
@@ -87,4 +92,10 @@ main {
   margin-left: 160px;
   border-radius: 50px;
   background-color: firebrick;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
 }
