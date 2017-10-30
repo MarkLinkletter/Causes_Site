@@ -95,12 +95,12 @@ main {
 #donate{
   border: 1px solid darkblue;
   width: 145px;
-  margin-left: 160px;
+  margin: 0 auto;
   border-radius: 50px;
   background-color: firebrick;
 }
 
-/*this is the code for the footer information section of the what page*/
+/*this is the code for the footer information section . should be the same on both pages*/
 
 footer {
   clear: both;
@@ -122,5 +122,11 @@ this is the code for the media query section of the what page*/
   }
   span {
     padding: 11px;
+  }
+  #leftcolumn{
+    display: none;
+  }
+  #rightcolumn{
+    width: 100%;
   }
 }
